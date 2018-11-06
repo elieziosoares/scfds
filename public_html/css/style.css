@@ -1155,3 +1155,11 @@ textarea.input {
 
   opacity: 1;
 }
+
+
+.pyn--map-container {
+  background: url(../img/ifrn.jpg) no-repeat center center;
+  background-size: cover;
+  background-color: black;
+
+}
