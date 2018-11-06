@@ -5,7 +5,7 @@ Author: yaminncco
 Colors:
 	Body 		  : #444
 	Headers 	: #0b0f28
-	Primary 	: #27429c
+	Primary 	: #0b0f28
 	Dark 		  : #000
 	Grey 		  : #F9F9FA #DADADA
 
@@ -43,7 +43,12 @@ body {
   color: #444;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0px 0px 15px;
   color: #0b0f28;
   font-weight: 700;
@@ -75,13 +80,15 @@ a {
   transition: 0.3s color;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
   outline: none;
-  color: #27429c;
+  color: #0b0f28;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none
@@ -90,7 +97,7 @@ ul, ol {
 .main-btn {
   display: inline-block;
   padding: 14px 50px;
-  background: #27429c;
+  background: #0b0f28;
   color: #FFF;
   text-transform: uppercase;
   border: none;
@@ -99,7 +106,8 @@ ul, ol {
   transition: 0.3s all;
 }
 
-.main-btn:hover, .main-btn:focus {
+.main-btn:hover,
+.main-btn:focus {
   color: #FFF;
   opacity: 0.8;
 }
@@ -120,7 +128,7 @@ textarea.input {
 }
 
 .input:focus {
-  border-color: #27429c;
+  border-color: #0b0f28;
 }
 
 /*----------------------------*\
@@ -129,7 +137,7 @@ textarea.input {
 
 .section {
   position: relative;
-  padding: 90px 0px;
+  padding: 100px 0px;
 }
 
 .section-bg {
@@ -144,7 +152,7 @@ textarea.input {
 
 .section-title {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
 }
 
 .section-title .title {
@@ -246,6 +254,7 @@ textarea.input {
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
   }
+
   to {
     -webkit-transform: translateY(0%);
     transform: translateY(0%);
@@ -257,6 +266,7 @@ textarea.input {
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
   }
+
   to {
     -webkit-transform: translateY(0%);
     transform: translateY(0%);
@@ -287,16 +297,17 @@ textarea.input {
   bottom: -3px;
   width: 100%;
   left: 0;
-  background: #27429c;
+  background: #0b0f28;
 }
 
-.main-nav li a:hover, .main-nav li a:focus {
+.main-nav li a:hover,
+.main-nav li a:focus {
   background-color: transparent;
-  color: #27429c;
+  color: #0b0f28;
 }
 
 #header.transparent-navbar .main-nav li a:hover {
-  color: #27429c;
+  color: #0b0f28;
 }
 
 .navbar-toggle {
@@ -330,19 +341,26 @@ textarea.input {
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
   }
+
   .main-nav.open {
     max-height: 500px;
   }
+
   .main-nav li.active a:after {
     display: none;
   }
+
   #header.transparent-navbar .main-nav li a {
     color: #0b0f28;
   }
-  .main-nav li a:hover, .main-nav li a:focus, .main-nav li.active a {
-    background-color: #27429c;
+
+  .main-nav li a:hover,
+  .main-nav li a:focus,
+  .main-nav li.active a {
+    background-color: #0b0f28;
     color: #fff !important;
   }
+
   .navbar-toggle {
     display: block;
   }
@@ -401,7 +419,7 @@ textarea.input {
 .number h3 {
   font-size: 42px;
   margin-bottom: 0px;
-  color: #27429c;
+  color: #0b0f28;
 }
 
 .number p {
@@ -451,7 +469,7 @@ textarea.input {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   background: transparent;
-  color: #27429c;
+  color: #0b0f28;
   width: 90px;
   height: 90px;
   line-height: 90px;
@@ -514,7 +532,7 @@ textarea.input {
 .speaker .speaker-content {
   position: relative;
   padding: 30px;
-  background: #27429c;
+  background: #0b0f28;
   text-align: right;
   z-index: 20;
 }
@@ -546,7 +564,7 @@ textarea.input {
   line-height: 40px;
   text-align: center;
   color: #FFF;
-  background: #27429c;
+  background: #0b0f28;
   z-index: 15;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity;
@@ -593,7 +611,7 @@ textarea.input {
   height: 60px;
   line-height: 60px;
   text-align: center;
-  background-color: #27429c !important;
+  background-color: #0b0f28 !important;
   border-radius: 50%;
   padding: 0;
   color: #FFF;
@@ -621,7 +639,7 @@ textarea.input {
 }
 
 .speaker-modal .speaker-modal-content .speaker-job {
-  color: #27429c;
+  color: #0b0f28;
 }
 
 .speaker-modal .speaker-modal-content .speaker-social {
@@ -637,7 +655,7 @@ textarea.input {
   text-align: center;
   font-size: 14px;
   border-radius: 50%;
-  background: #27429c;
+  background: #0b0f28;
   color: #fff;
   margin-right: 5px;
   -webkit-transition: 0.3s opacity;
@@ -663,7 +681,7 @@ textarea.input {
 }
 
 .speaker-modal .speaker-modal-content .speaker-events .speaker-event>span strong {
-  color: #27429c;
+  color: #0b0f28;
 }
 
 /*=========================================================
@@ -685,7 +703,7 @@ textarea.input {
   top: 0px;
   bottom: 0px;
   width: 4px;
-  background-color: #27429c;
+  background-color: #0b0f28;
 }
 
 .event:last-child:after {
@@ -699,7 +717,7 @@ textarea.input {
   height: 60px;
   top: -60px;
   width: 4px;
-  background-color: #27429c;
+  background-color: #0b0f28;
 }
 
 .event .event-day {
@@ -709,7 +727,7 @@ textarea.input {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background: #27429c;
+  background: #0b0f28;
   z-index: 10;
 }
 
@@ -720,7 +738,7 @@ textarea.input {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #27429c;
+  background: #0b0f28;
   z-index: 10;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -763,11 +781,11 @@ textarea.input {
 }
 
 .event .event-time i {
-  color: #27429c;
+  color: #0b0f28;
 }
 
 .event .event-content a {
-  color: #27429c;
+  color: #0b0f28;
 }
 
 .download-btn {
@@ -809,7 +827,7 @@ textarea.input {
 }
 
 .contact h3 {
-  color: #27429c;
+  color: #0b0f28;
 }
 
 #map {
@@ -841,7 +859,7 @@ textarea.input {
   text-align: center;
   line-height: 120px;
   font-size: 42px;
-  color: #27429c;
+  color: #0b0f28;
   cursor: pointer;
 }
 
@@ -877,7 +895,7 @@ textarea.input {
   height: 30px;
   text-align: center;
   border-radius: 50%;
-  background: #27429c;
+  background: #0b0f28;
   color: #fff;
   line-height: 30px;
   margin-right: 15px;
@@ -942,7 +960,7 @@ textarea.input {
 .blog .blog-content .read-more {
   display: inline-block;
   padding: 7px 14px;
-  background: #27429c;
+  background: #0b0f28;
   color: #FFF;
   text-transform: uppercase;
   border-radius: 2px;
@@ -951,7 +969,8 @@ textarea.input {
   transition: 0.3s all;
 }
 
-.blog .blog-content .read-more:hover, .blog .blog-content .read-more:focus {
+.blog .blog-content .read-more:hover,
+.blog .blog-content .read-more:focus {
   opacity: 0.8;
   color: #fff;
 }
@@ -975,7 +994,7 @@ textarea.input {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background-color: #27429c;
+  background-color: #0b0f28;
   color: #FFF;
   border-radius: 50%;
   line-height: 30px;
@@ -1015,7 +1034,7 @@ textarea.input {
 
 .blog .blog-comments .media .media-heading .reply-btn {
   margin-left: 10px;
-  color: #27429c;
+  color: #0b0f28;
 }
 
 .blog .blog-reply {
@@ -1039,6 +1058,7 @@ textarea.input {
     text-align: center;
     margin: 30px 0px;
   }
+
   .copyright {
     display: block;
     text-align: center;
@@ -1049,26 +1069,33 @@ textarea.input {
   .home-content h1 {
     font-size: 31px;
   }
+
   .page-wrapper-content h1 {
     font-size: 31px;
   }
+
   .event .event-day {
     width: 90px;
     height: 90px;
   }
+
   .event .event-content {
     padding-left: 115px;
   }
+
   .event .event-day .day {
     font-size: 31px;
     line-height: 31px;
   }
+
   .event .event-hour {
     left: 47px;
   }
+
   .event:after {
     left: 45px;
   }
+
   .event+.event:before {
     left: 45px;
   }
@@ -1078,4 +1105,53 @@ textarea.input {
   [class*='col-xs'] {
     width: 100%;
   }
+}
+
+
+#timer {
+  padding: 30px 0;
+  font-size: 24px;
+  font-weight: 600;
+  border: 1px 1px 1px 1px;
+  border-color: black;
+}
+
+#timer span {
+  font-size: 14px;
+  font-weight: 200;
+  margin-right: 30px
+}
+
+@media (max-width: 736px) {
+  #timer span {
+    font-size: 12px
+  }
+}
+
+.start-in {
+  display: inline-flex;
+  background-color: #0b0f28;
+  color: #fff;
+  padding: 5px 30px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-transform: uppercase
+}
+
+
+
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('../img/loader.gif') 50% 50% no-repeat white;
+}
+
+.fade {
+
+  opacity: 1;
 }
