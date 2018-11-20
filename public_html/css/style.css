@@ -218,6 +218,7 @@ textarea.input {
 	NAVIGATION
 ===========================================================*/
 
+
 #header {
   position: relative;
   background-color: #FFF;
@@ -373,6 +374,7 @@ textarea.input {
 #home {
   height: 100vh;
   position: relative;
+  height: 1000px;
 }
 
 #home .home-wrapper {

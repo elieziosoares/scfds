@@ -106,12 +106,4 @@
 		});
 	});
 
-
-	jQuery(window).load(function () {
-		$(".loader").fadeOut("slow");
-		$("#home").toggle("fast");
-	});
-
-
-
 })(jQuery);
