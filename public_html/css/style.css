@@ -1159,19 +1159,3 @@ textarea.input {
 }
 
 
-.pyn--map-container {
-  background: url(../img/ifrn.jpg) no-repeat center center;
-  background-size: cover;
-  background-color: black;
-  position: relative;
-  margin-top: 30px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.pyn--map-frame {
-  position: relative;
-  z-index: 5;
-  border-radius: 15px;
-  box-shadow: 0 10px 60px 0 rgba(0, 0, 0, .74)
-}
