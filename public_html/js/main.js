@@ -45,49 +45,6 @@
 		});
 	});
 
-	// Galery Owl
-	var owl = $('#galery-owl')
-
-	owl.owlCarousel({
-		animateIn: 'fadeIn', // and this
-		animateOut: 'fadeOut',
-		items: 1,
-		loop: true,
-		margin: 0,
-		dots: false,
-		nav: false,
-		navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-		autoplayTimeout: 1000,
-		responsive: {
-			0: {
-				stagePadding: 0,
-			},
-			768: {
-				stagePadding: 120,
-			}
-
-		},
-		onChanged: callBack
-	});
-
-
-
-	//Delay Segundo Slide
-	function callBack(event) {
-		// Solution to have correct item number. See: https://github.com/OwlCarousel2/OwlCarousel2/issues/1029. Thanks to Modicrumb
-		var current = (event.item.index + 1) - event.relatedTarget._clones.length / 2;
-		var allItems = event.item.count;
-		if (current > allItems || current <= 0) {
-			current = allItems - (current % allItems);
-		}
-
-		if (current == 1 || current == 3) {
-			owl.trigger('stop.owl.autoplay')
-			setTimeout(function () {
-				owl.trigger('play.owl.autoplay')
-			}, 5000)
-		}
-	}
 
 	// Parallax Background
 	$.stellar({

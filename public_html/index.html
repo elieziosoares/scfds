@@ -826,16 +826,16 @@
 						</div>
 
 						<div class="form-group col-xs-4">
-							
-							<label  style="color: white" for="select-edicao">Edição: </label>
-							<select  id="select-edicao" class="form-control">
-								<option selected>2016</option>
+
+							<label style="color: white" for="select-edicao">Edição: </label>
+							<select id="select-edicao" class="form-control">
+								<!-- <option selected>2016</option> -->
 								<option selected>2018</option>
 							</select>
-						</div>	<!--  -->
-						
+						</div> <!--  -->
+
 						<div style="margin-top:26px;" class="form-group col-xs-3">
-							<button id="botao_certificado" onclick="enviar()" type="submit" class="btn btn-default">Solicitar Certificado</button>
+							<button id="botao_certificado" type="reset" class="btn btn-default"><a download>Solicitar Certificado</a></button>
 						</div>
 
 					</div>
@@ -888,7 +888,9 @@
 					<span class="copyright">
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 						IFRN - Campus Currais Novos
-						<script>document.write(new Date().getFullYear());</script>
+						<script>
+							document.write(new Date().getFullYear());
+						</script>
 				</div>
 				<!-- /copyright -->
 
@@ -908,9 +910,10 @@
 	<script src="js/main.js"></script>
 	<script type="text/javascript" src="js/jquery-1.2.6.pack.js"></script>
 	<script type="text/javascript" src="js/jquery.maskedinput-1.1.4.pack.js"></script>
+
 	<script type="text/javascript" src="js/certificados.js"></script>
 	<script type="text/javascript">
-		$(document).ready(function(){
+		$(document).ready(function () {
 			$("#cpf").mask("999.999.999-99");
 		});
 	</script>
